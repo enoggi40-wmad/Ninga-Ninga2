@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c39dd2ba627ad2744bfc06818040d924, type: 3}
+  m_Name: WD_Sword
+  m_EditorClassIdentifier: 
+  weaponName: Sword
+  type: 1
+  weaponModelPrefab: {fileID: 5442387787501726933, guid: c9cddd405200a414fabbb6a8914e1047, type: 3}
+  damage: 40
+  cooldown: 0.2
+  animTrigger: Slash
+  projectilePrefab: {fileID: 0}
+  aimMaxDistance: 200
+  aimMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  meleeRange: 0.7
+  meleeRadius: 0.6
+  meleeMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
